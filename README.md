@@ -51,6 +51,8 @@ src
   
 <!-- GETTING STARTED -->
 ## Live Demo
-  Code:<a href="https://codesandbox.io/s/assistment-l9npo?file=/src/styles.css">Link</a>
-  Demo:<a href="https://l9npo.csb.app/">Link</a>
+<p>Code:<a href="https://codesandbox.io/s/assistment-l9npo?file=/src/styles.css">Link</a></p>
+<p>Demo:<a href="https://l9npo.csb.app/">Link</a></p>
+  
+  
 
