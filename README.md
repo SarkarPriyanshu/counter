@@ -1,11 +1,18 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<p>Mobile View</p>
+<p align="center">Mobile View</p>
+<p align="center">
 <img src="https://github.com/SarkarPriyanshu/counter/blob/main/screenshots/Mobile_View.png?raw=true" alt="Mobile view"/>
+</p>
+  
 
-<p>Desktop View</p>
+<p align="center" >Desktop View</p>
+<p align="center">
 <img src="https://github.com/SarkarPriyanshu/counter/blob/main/screenshots/Desktop_View.png?raw=true" alt="Desktop view"/>
+</p>
+  
+
 
 
 
