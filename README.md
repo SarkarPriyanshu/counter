@@ -11,6 +11,11 @@
 <p align="center">
 <img src="https://github.com/SarkarPriyanshu/counter/blob/main/screenshots/Desktop_View.png?raw=true" alt="Desktop view"/>
 </p>
+
+<!-- GETTING STARTED -->
+## Live Demo
+<p>Code:<a target="_blank" href="https://codesandbox.io/s/assistment-l9npo?file=/src/styles.css">Link</a></p>
+<p>Demo:<a target="_blank" href="https://l9npo.csb.app/">Link</a></p>
   
 ### Problem Statement
 Your React application must have the following components:
@@ -56,10 +61,6 @@ src
   - index.js
   - styles.css
   
-<!-- GETTING STARTED -->
-## Live Demo
-<p>Code:<a href="https://codesandbox.io/s/assistment-l9npo?file=/src/styles.css">Link</a></p>
-<p>Demo:<a href="https://l9npo.csb.app/">Link</a></p>
   
   
 
