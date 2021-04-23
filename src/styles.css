@@ -1,0 +1,145 @@
+/*------------- Desktop and Table view -------------- */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.HeaderComponent {
+  height: 100px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.BrandLogo {
+  color: #6155a6;
+  font-weight: 600;
+}
+
+.Sidebar {
+  width: 100px;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 0.5rem;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #6155a6;
+  transition: all 0.7s ease;
+}
+
+.btn:hover {
+  padding: 0.6rem;
+  border: none;
+  color: #6155a6;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.MainSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Content_Footer {
+  min-width: 80%;
+  min-height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentSection {
+  width: 90%;
+  padding: 0 2rem;
+  height: 70vh;
+  max-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+  min-height: 80%;
+}
+
+.ClickCountSection {
+  margin: 2rem 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* ------------ Mobile View --------------- */
+
+@media only screen and (max-width: 414px) {
+  .HeaderComponent {
+    padding: 0 1rem;
+  }
+
+  .Sidebar {
+    width: 100;
+    height: max-content;
+    margin: 0.5rem 0;
+  }
+
+  .btn {
+    padding: 0.4rem;
+  }
+
+  .MainSection {
+    width: 80%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .Content_Footer {
+    min-width: max-content;
+    min-height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contentSection {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    min-height: 80%;
+  }
+
+  .ClickCountSection {
+    margin: 2rem 0;
+  }
+
+  .Footer {
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .MobileFooter {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
